@@ -1,3 +1,85 @@
+:root {
+  --back-color: #2f303a;
+  --second-back-color: #e5e5e5;
+  --third-back-color: #f5f4fa;
+  --text-color: #212121;
+  --second-text-color: #757575;
+  --third-text-color: #ffffff;
+  --fourth-text-color: #000000;
+  --decor-color: #2196f3;
+}
+body {
+  color: var(--text-color);
+}
+/*Шапка сайта*/
+.page-header .logo-color {
+  color: var(--decor-color);
+}
+.page-header .logo {
+  color: var(--fourth-text-color);
+}
+.site-nav .link-btn {
+  color: var(--text-color);
+}
+.site-nav .link-btn:hover,
+.site-nav .link-btn:focus {
+  color: var(--decor-color);
+}
+.auth-nav .btn-link {
+  color: var(--second-text-color);
+}
+.auth-nav .btn-link:hover,
+.auth-nav .btn-link:focus {
+  color: var(--decor-color);
+}
+/*Секция герой*/
 .hero {
-  background-color: #2f303a;
+  background-color: var(--back-color);
+}
+.hero .hero-title {
+  color: var(--third-text-color);
+}
+.hero .btn-hero {
+  color: var(--third-text-color);
+  background-color: var(--decor-color);
+}
+/*Секция герой*/
+.caption .caption-titles {
+  color: var(--text-color);
+}
+.caption .caption-text {
+  color: var(--second-text-color);
+}
+/*Секция чем мы занимаемся*/
+.work .work-title {
+  color: var(--text-color);
+}
+/*Секция наша команда*/
+.team {
+  background-color: var(--third-back-color);
+}
+.team .team-title {
+  color: var(--text-color);
+}
+.team .workers {
+  color: var(--text-color);
+}
+.team .position {
+  color: var(--second-text-color);
+}
+/*Футер*/
+.footer {
+  background-color: var(--back-color);
+}
+.footer .footer-log {
+  color: var(--decor-color);
+}
+.footer .footer-logo {
+  color: var(--third-text-color);
+}
+.footer .map {
+  color: var(--third-text-color);
+}
+.footer .link {
+  color: rgba(255, 255, 255, 0.6);
 }
