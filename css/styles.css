@@ -171,6 +171,7 @@ body {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
+  text-decoration: none;
 }
 
 /*ПОРТФОЛИО*/
@@ -191,6 +192,7 @@ body {
 .main-portfolio .title {
   color: var(--text-color);
 
+  text-decoration: none;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
