@@ -83,3 +83,20 @@ body {
 .footer .link {
   color: rgba(255, 255, 255, 0.6);
 }
+
+/*ПОРТФОЛИО*/
+.main-portfolio .link {
+  background-color: #f5f4fa;
+  color: var(--text-color);
+}
+.main-portfolio .link:hover,
+.main-portfolio .link:focus {
+  background-color: var(--decor-color);
+  color: var(--third-text-color);
+}
+.main-portfolio .title {
+  color: var(--text-color);
+}
+.main-portfolio .post-title {
+  color: var(--second-text-color);
+}
