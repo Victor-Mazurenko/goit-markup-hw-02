@@ -15,6 +15,7 @@ body {
   font-family: 'Roboto', sans-serif;
   font-size: 14px;
 }
+
 /*Шапка сайта*/
 .page-header .logo-color {
   color: var(--decor-color);
@@ -54,6 +55,9 @@ body {
 .auth-nav .btn-link:focus {
   color: var(--decor-color);
 }
+.site-nav .current {
+  color: var(--decor-color);
+}
 /*Секция герой*/
 .hero {
   background-color: var(--back-color);
@@ -85,6 +89,18 @@ body {
   background-color: var(--second-decor-color);
 }
 /*Секция особенности*/
+.caption .caption-title {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
 .caption .caption-titles {
   color: var(--text-color);
 
@@ -144,7 +160,7 @@ body {
 .footer .footer-log {
   color: var(--decor-color);
 
-  font-family: 'Raleway';
+  font-family: 'Raleway' sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -180,6 +196,19 @@ body {
 }
 
 /*ПОРТФОЛИО*/
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 .main-portfolio .link {
   background-color: #f5f4fa;
   color: var(--text-color);
@@ -210,4 +239,11 @@ body {
   font-size: 16px;
   line-height: 1.87;
   text-decoration: none;
+}
+.main-portfolio .decoration {
+  text-decoration: none;
+}
+.main-portfolio .current {
+  background-color: var(--decor-color);
+  color: var(--third-text-color);
 }
